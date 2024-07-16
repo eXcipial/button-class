@@ -86,4 +86,36 @@
     border: 1px rgb(196, 46, 46);}
 .btn2.danger:active {
     background-color:rgb(102, 34, 34);}
+.btn2.disable_d {
+    background-color: #A4A4AC;
+    width: 200px;
+    cursor: default;
+    pointer-events: none;}
+.btn2.disable_p {
+    background-color: #B7CBFD;
+    width: 200px;
+    cursor: default;
+    pointer-events: none;}
+.btn2.disable_i {
+    background-color: #C2B8FD;
+    width: 200px;
+    cursor: default;
+    pointer-events: none;}
+.btn2.disable_s {
+    background-color: #8FDAC6;
+    width: 200px;
+    cursor: default;
+    pointer-events: none;}
+.btn2.disable_w {
+    background-color: #FFDE7F;
+    width: 200px;
+    cursor: default;
+    pointer-events: none;}
+.btn2.disable_dan {
+    background-color: #F08E8B;
+    width: 200px;
+    cursor: default;
+    pointer-events: none;}
+    
+
 
