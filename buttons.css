@@ -7,7 +7,8 @@
     height: 32px;
     background-color: rgb(0, 132, 255);
     color: white;
-    border: 1px color rgb(0, 132, 255);}
+    border: 1px color rgb(0, 132, 255);
+    cursor: grab;}
     .btn:hover {
         background-color: red;
         color: black;
@@ -29,5 +30,60 @@
     height: 20px;
     padding: 0px 6px;
     font-size: 10px;}
-
+ .btn2 {   
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 8px 12px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border: 1px color rgb(0, 132, 255);
+    cursor: grab;}
+.btn2:hover {
+    background-color: rgb(89, 163, 233);
+    border: 1px rgb(0, 132, 255);}
+.btn2:active {
+    background-color: blue;}
+.btn2.dark {
+    background-color: grey;
+    border: 1px color grey;}
+.btn2.dark:hover {
+    background-color: rgb(128, 124, 124);
+    border: 1px grey;}
+.btn2.dark:active {
+    background-color: rgb(3, 3, 3);}
+.btn2.info {
+    background-color: purple ;
+    border: 1px color purple}
+.btn2.info:hover {
+    background-color: rgb(219, 107, 219);
+    border: 1px purple;}
+.btn2.info:active {
+    background-color:blueviolet;}
+.btn2.success {
+    background-color: greenyellow ;
+    border: 1px color greenyellow}
+.btn2.success:hover {
+    background-color: rgb(164, 219, 80);
+    border: 1px greenyellow;}
+.btn2.success:active {
+    background-color:green;}
+.btn2.warning {
+    background-color: orange ;
+    border: 1px color orange;}
+.btn2.warning:hover {
+    background-color: rgb(173, 124, 32);
+    border: 1px orange;}
+.btn2.warning:active {
+    background-color:orangered;}
+.btn2.danger {
+    background-color:red ;
+    border: 1px color red}
+.btn2.danger:hover {
+    background-color: rgb(230, 40, 40);
+    border: 1px rgb(196, 46, 46);}
+.btn2.danger:active {
+    background-color:rgb(102, 34, 34);}
 
